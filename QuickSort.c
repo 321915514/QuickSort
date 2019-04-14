@@ -39,7 +39,7 @@ int main()
 {
     int a[]={23,45,7,89,34,2,67,9,78};
     int length=sizeof(a)/sizeof(int);
-    printf("-------Ô­ĞòÁĞ-------\n");
+    printf("-------åŸåºåˆ—-------\n");
     for(int i=0;i<length;i++)
     {
         printf("%3d",a[i]);
@@ -47,7 +47,7 @@ int main()
 
     quicksort(a,0,length-1);
 
-    printf("\n-------ÅÅĞòºó-------\n");
+    printf("\n-------æ’åºå-------\n");
     for(int i=0;i<length;i++)
     {
         printf("%3d",a[i]);
